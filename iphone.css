@@ -165,9 +165,9 @@
 	position: absolute;
 	z-index: 10;
 	transition: all ease 0.7s;
-	font-size: 50px;
+	font-size: 40px;
 	font-weight: 900;
-    line-height: 50px;
+    line-height: 40px;
 }
 /* .iphonex .screen .screen__view .dribbbleLogo{
 	width: 8em;
