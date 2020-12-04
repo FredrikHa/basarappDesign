@@ -137,7 +137,7 @@
 	width: 50em;
 	height: 50em;
 	border-radius: 50%;
-	background: linear-gradient(110deg,#AB34B2, #D63776, #5D2B8B );
+	background: linear-gradient(110deg,#59ebc3, #59ebc3, #229bca );
 	bottom: 0;
 }
 .iphonex .screen .screen__view:after{
@@ -160,7 +160,16 @@
 	transition: all ease 0.9s 0.2s;
 }
 
-.iphonex .screen .screen__view .dribbbleLogo{
+.iphonex .screen .screen__view .intro-text{
+	/* width: 80%; */
+	position: absolute;
+	z-index: 10;
+	transition: all ease 0.7s;
+	font-size: 50px;
+	font-weight: 900;
+    line-height: 50px;
+}
+/* .iphonex .screen .screen__view .dribbbleLogo{
 	width: 8em;
 	height: 8em;
 	position: absolute;
@@ -168,7 +177,7 @@
     transition: all ease 0.7s;
     background-image: url('assets/spillbasar-logo.svg');
 }
-/* .iphonex .screen .screen__view .dribbbleLogo{
+.iphonex .screen .screen__view .dribbbleLogo{
 	width: 8em;
 	height: 8em;
 	border: solid 0.7em #D33572;
@@ -228,7 +237,7 @@
 } */
 .iphonex .screen .screen__view .hello{
 	font-size: 2.5em;
-	color: #fff;
+	color: #000;
 	position: absolute;
 	z-index: 60;
 	opacity: 0;

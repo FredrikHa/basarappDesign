@@ -13,6 +13,10 @@ h2{
     font-weight: 900;
     font-size: 60px;
 }
+h3{
+    font-weight: 900;
+    font-size: 45px;
+}
 @media (max-width : 400px) {
     h1{
         font-size: 40px;
@@ -27,6 +31,13 @@ h2{
     align-items: center;
     justify-content: center;
 }
+.box h1{
+    padding-bottom: 25px;
+}
+.box h2{
+    padding-bottom: 25px;
+}
+
 @media (min-width: 768px){
     .d-md-block {
         display: inherit!important;
@@ -49,10 +60,13 @@ h2{
     color: black;
 }
 
-
-.box h1{
-    padding-bottom: 25px;
-}
-.box h2{
-    padding-bottom: 25px;
+.b-card{
+    display: flex;
+    padding: 6vw;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    max-width: 600px;
+    margin: 30px auto;
+    border-radius: 2px;
 }
