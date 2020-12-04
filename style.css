@@ -30,6 +30,7 @@ h3{
     padding: 6vw;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 .box h1{
     padding-bottom: 25px;
@@ -69,4 +70,12 @@ h3{
     max-width: 600px;
     margin: 30px auto;
     border-radius: 2px;
+}
+
+/* FRONT PAGE */
+
+@media (max-width : 1250px) {
+    #welcome h1{
+        font-size: 50px;
+    }
 }
